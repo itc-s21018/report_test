@@ -36,7 +36,7 @@ Route.get('/absences', 'AbsencesController.index')
 Route.get('/absences/add', 'AbsencesController.add')
 Route.post('/absences/add', 'AbsencesController.add_posted')
 
-Route.get('/cerfiticate', 'CerfiticateApplicationsController.index')
+Route.get('/cerfiticate', 'CerficateApplicationsController.index')
   .as('cerfiticate.index,show')
 Route.get('/cerfiticate/add', 'CerfiticateApplicationsController.add')
 Route.post('/cerfiticate/add', 'CerfiticateApplicationsController.add_posted')
